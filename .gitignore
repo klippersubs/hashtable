@@ -1,0 +1,28 @@
+# Hash table implementation. (Git ignore file.)
+# Author: Alice Klipper <aliceklipper@yandex.com> (https://t.me/aliceklipper)
+# License: MIT
+# Copyright: KlipperSubs, 2017
+
+###############
+## IDE stuff ##
+###############
+
+# IDEA
+.idea/
+*.iml
+
+#####################
+## Ecosystem stuff ##
+#####################
+
+# NodeJS
+node_modules/
+
+# Yarn
+yarn-error.log
+
+##################
+## Poject stuff ##
+##################
+
+build/

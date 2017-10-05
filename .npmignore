@@ -1,0 +1,40 @@
+# Hash table implementation. (npm ignore file.)
+# Author: Alice Klipper <aliceklipper@yandex.com> (https://t.me/aliceklipper)
+# License: MIT
+# Copyright: KlipperSubs, 2017
+
+###############
+## IDE stuff ##
+###############
+
+# IDEA
+.idea/
+*.iml
+
+#####################
+## Ecosystem stuff ##
+#####################
+
+# Yarn
+yarn.lock
+yarn-error.log
+
+# ESLint
+.eslintignore
+.eslintrc.js
+
+# Babel
+.babelrc
+
+# Flow
+.flowconfig
+
+# Travis
+.travis.yml
+
+# Git
+.gitignore
+
+##################
+## Poject stuff ##
+##################

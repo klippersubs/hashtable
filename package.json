@@ -1,0 +1,44 @@
+{
+    "name": "@klippersubs/hashtable",
+    "version": "1.0.0",
+    "description": "Hash table implementation.",
+    "keywords": [
+        "hashtable",
+        "hash-table",
+        "map"
+    ],
+    "main": "build/index.js",
+    "module": "source/index.js",
+    "repository": "klippersubs/hashtable",
+    "bugs": {
+        "url": "https://github.com/klippersubs/hashtable/issues",
+        "email": "aliceklipper@yandex.com"
+    },
+    "license": "MIT",
+    "scripts": {
+        "clean": "rm -rf ./build && mkdir build",
+        "prebuild": "yarn run clean",
+        "build": "babel ./source/index.js --out-file ./build/index.js --source-maps",
+        "prepublish": "yarn run build",
+        "postpublish": "yarn run clean",
+        "lint": "eslint ./source/**/*.js",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.0.1",
+        "babel-jest": "^21.2.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-flow": "^6.23.0",
+        "eslint": "^4.8.0",
+        "eslint-config-google": "^0.9.1",
+        "eslint-config-prettier": "^2.6.0",
+        "eslint-plugin-flowtype": "^2.37.0",
+        "eslint-plugin-flowtype-errors": "^3.3.2",
+        "eslint-plugin-prettier": "^2.3.1",
+        "flow-bin": "^0.56.0",
+        "jest": "^21.2.1",
+        "prettier": "^1.7.4"
+    }
+}
